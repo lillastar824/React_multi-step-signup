@@ -1,0 +1,48 @@
+.footerSection {
+  padding: 2em 0;
+  background-color: #414141;
+  color: #b6b4b3;
+}
+.footerSection .footerHeading {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5em;
+}
+.footerSection .subText {
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-bottom: 1.2em;
+  line-height: 1.2;
+}
+.footerSection .footerLinks .subText {
+  display: block;
+}
+.footerSection .subText.colord {
+  color: #ffba00;
+}
+.footerSection .add {
+  margin-bottom: 0.8em;
+}
+.footerSection .add i {
+  margin-right: 0.5em;
+}
+
+/* Page Footer */
+.pageFooter {
+  padding: 1em 0;
+  text-align: center;
+  background-color: #2d2d2d;
+}
+.pageFooter .copyright {
+  font-size: 0.8em;
+  color: white;
+  margin-right: 1.5em;
+}
+.pageFooter .socialIcons {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 0.7em;
+  color: #ffba00;
+  font-size: 1.1em;
+}

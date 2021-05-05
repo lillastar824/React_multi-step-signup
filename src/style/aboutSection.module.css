@@ -1,0 +1,11 @@
+.aboutSection {
+  padding: 4em 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.aboutSection .outline {
+  width: 70%;
+  font-size: 1.1em;
+  padding: 0.4em 2em;
+}

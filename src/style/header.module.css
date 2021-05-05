@@ -1,0 +1,9 @@
+.nav_item .nav_link {
+  color: var(--themeColor);
+  font-weight: 600;
+}
+.nav_item .mainBtn {
+  width: 10em;
+  text-align: center;
+  padding: 0.6em 0;
+}

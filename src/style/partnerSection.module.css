@@ -1,0 +1,16 @@
+.partnersSection {
+  padding: 1em 0 3em 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.partnersSection .partnersImg {
+  display: inline-block;
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+}
+.partnersSection .partnersImg img {
+  width: 100%;
+}
+.partnersSection .partnersImg:hover {
+  transform: scale(1.1);
+}

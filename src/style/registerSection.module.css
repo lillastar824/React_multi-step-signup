@@ -1,0 +1,143 @@
+.registrationSection {
+  padding: 3em 0;
+  text-align: center;
+}
+.registrationSection .progress {
+  height: 1.8em;
+  border-radius: 0.4em 0.4em 0 0;
+  background-color: #f9f9f9;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  margin-top: 2em;
+}
+.registrationSection .progress_bar {
+  background-color: #07af1b;
+}
+.registrationSection .subBtn {
+  background-color: #e8e8e8;
+  color: #c0bebd;
+  padding: 0.6em 2.5em;
+  margin-top: 2em;
+  border-radius: 18px;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 1em;
+  transition: 200ms ease-in-out;
+  font-weight: 600;
+}
+.registrationSection .subBtn:hover {
+  transform: scale(0.98);
+}
+.registrationSection .registrationForm .registerBody {
+  width: 100%;
+  max-width: 280px;
+  margin: 1.5em auto;
+}
+.registrationSection .registrationForm .registerBody .loginLabel {
+  margin-top: 1.3em;
+}
+.registrationSection .registrationForm .oddInput {
+  width: 50%;
+  display: block;
+}
+.registrationSection .mainBtn {
+  width: 100%;
+}
+.registrationSection .registrationForm .nav {
+  justify-content: center;
+}
+#stepTwo .mainText {
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+#stepTwo .registrationSelect {
+  color: #b6b4b3;
+  padding: 0.7em 3em 0.7em 1em;
+  outline: none;
+  border-radius: 0.3em;
+  -webkit-appearance: none;
+  background-position: 90%;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  font-size: 0.9em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  display: block;
+}
+#stepTwo .multiInputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#stepTwo .multiInputs i {
+  color: var(--themeColor);
+  font-size: 1.5em;
+  margin-left: 0.4em;
+  margin-top: 0.8em;
+}
+#stepTwo .multiInputs > div:nth-of-type(1) .registrationSelect {
+  padding-right: 2em;
+  background-size: 14%;
+}
+#stepTwo .multiInputs > div:nth-of-type(1) {
+  width: 30%;
+}
+#stepTwo .multiInputs > div:nth-of-type(2) {
+  width: 18%;
+}
+#stepTwo .multiInputs > div:nth-of-type(3) {
+  width: 37%;
+}
+#stepTwo .multiInputs > div:nth-of-type(4) {
+  width: 10%;
+}
+.registrationForm .addLink {
+  color: var(--themeColor);
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 2em;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.registrationForm .addLink i {
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+#stepThree .oddText {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+#stepThree .commonSelectOption {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+#stepFour .termsService {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  padding: 1em 2em 1em 1em;
+  margin-top: 1.5em;
+  text-align: left;
+  height: 245px;
+  overflow-y: scroll;
+}
+#stepFour .termsService .termHeading {
+  font-weight: 700;
+  color: var(--fontsColor);
+  margin-bottom: 0.5em;
+}
+#stepFour .termsService .termsText {
+  font-size: 0.8em;
+  line-height: 1.2;
+  margin-bottom: 1.5em;
+}
+#stepFour .checkBoxArea {
+  text-align: left;
+  margin-top: 2.5em;
+}
+#stepFour .checkBoxArea input {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.4em;
+}
+.subBtn.active {
+  background-color: var(--themeColor);
+  color: white;
+}

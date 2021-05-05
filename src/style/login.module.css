@@ -1,0 +1,57 @@
+.loginSection {
+  text-align: center;
+  height: 385px;
+  padding: 3em 0 0 0;
+}
+.loginSection .loginForm {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.3em;
+  padding: 1em 2em 2.5em 2em;
+}
+.loginSection .loginForm .subHeading {
+  font-size: 1.8em;
+}
+.loginLabel {
+  color: var(--fontsColor);
+  text-align: left;
+  display: inline-block;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 0.4em;
+}
+.loginInput {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  width: 100%;
+  outline: none;
+}
+.loginSection .resetLink {
+  color: var(--themeColor);
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+.loginSection .loginForm .mainBtn {
+  display: block;
+  width: 100%;
+  margin-top: 2em;
+}
+.loginSection .logFrom {
+  padding: 0 2em;
+}
+
+/* Mid Section */
+.midSection {
+  padding: 4em 0 3em 0;
+  text-align: center;
+}
+.midSection .mainBtn {
+  width: 100%;
+  display: block;
+  margin-bottom: 1em;
+}

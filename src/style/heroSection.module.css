@@ -1,0 +1,13 @@
+.heroSection {
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 7em 0;
+  text-align: center;
+}
+
+.heroSection .oddSelect {
+  background-size: 7%;
+  background-position: 90%;
+}

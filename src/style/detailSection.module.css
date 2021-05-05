@@ -1,0 +1,32 @@
+.detailsSection {
+  padding: 3em 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.detailsSection .userIcon {
+  font-size: 6em;
+  color: var(--themeColor);
+}
+.detailsSection .detailHeading {
+  font-weight: 600;
+  color: var(--themeColor);
+  margin-top: 1em;
+}
+.detailsSection .details {
+  display: flex;
+  margin-bottom: 2em;
+}
+.detailsSection .detailIcon {
+  display: block;
+  font-size: 1.5em;
+  color: var(--themeColor);
+  margin-right: 0.7em;
+}
+.detailsSection .detailsText {
+  color: var(--fontsColor);
+  text-align: left;
+  font-weight: 700;
+}
+.detailsSection .add .subText {
+  font-size: 0.8em;
+}

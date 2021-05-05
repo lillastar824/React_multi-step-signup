@@ -1,0 +1,120 @@
+:root {
+  --themeColor: #ec6f00;
+  --fontsColor: #3c3c3c;
+}
+body {
+  font-family: "Cabin", sans-serif;
+  font-size: 1em;
+}
+a.mainBtn,
+button.mainBtn {
+  background-color: var(--themeColor);
+  color: white;
+  padding: 0.6em 2em;
+  border-radius: 0.2em;
+  border: 1px solid transparent;
+  font-weight: 600;
+  transition: 200ms ease-in-out;
+  display: inline-block;
+}
+.mainBtn.outline {
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  background-color: white;
+}
+.mainBtn:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.mainHeading {
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+}
+.commonSelectOption {
+  color: #b6b4b3;
+  width: 100%;
+  padding: 0.8em;
+  outline: none;
+  border-radius: 0.3em;
+  -webkit-appearance: none;
+  background-position: 96%;
+  background-repeat: no-repeat;
+  background-size: 3.2%;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.subHeading {
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--fontsColor);
+  margin-bottom: 0.5em;
+}
+.mainText {
+  color: var(--fontsColor);
+  margin-bottom: 1.5em;
+  font-weight: 500;
+}
+
+.loginLabel {
+  color: var(--fontsColor);
+  text-align: left;
+  display: inline-block;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 0.4em;
+}
+.loginInput {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  width: 100%;
+  outline: none;
+}
+.ant-row {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.ant-col {
+  text-align: left !important;
+}
+.ant-form-item-required::before {
+  content: "" !important;
+}
+.ant-form-item-required::after {
+  content: "" !important;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar .nav-item .mainBtn {
+    margin: 1em 0;
+  }
+  /* Hero Section */
+  .heroSection {
+    padding: 3em 0;
+  }
+  .heroSection .commonSelectOption.oddSelect,
+  .heroSection .commonSelectOption {
+    background-size: 4%;
+    background-position: 96%;
+    margin-bottom: 1.5em;
+  }
+  /* Partner Section */
+  .partnersSection .partnersImg {
+    margin-bottom: 1.5em;
+  }
+  /* Login Page */
+  .heroSection.loginSection {
+    padding: 1em 0 0 0;
+  }
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,111,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: rgba(236, 111, 0, 1);
+  outline: none !important;
+}
